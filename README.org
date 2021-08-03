@@ -1,0 +1,3 @@
+#+TITLE: Shortcuts Using An Intent Extension
+
+This is not mentioned in the WWDC video on the topic, but it *should* work.
