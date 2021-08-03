@@ -15,6 +15,7 @@
 		1C24088C26B9F25100978B64 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C24088B26B9F25100978B64 /* Intents.framework */; platformFilter = maccatalyst; };
 		1C24089026B9F25100978B64 /* IntentHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C24088F26B9F25100978B64 /* IntentHandler.m */; };
 		1C24089426B9F25100978B64 /* intents-extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1C24088926B9F25100978B64 /* intents-extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1C24089C26B9F37400978B64 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1C24089B26B9F37400978B64 /* Intents.intentdefinition */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		1C24088E26B9F25100978B64 /* IntentHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntentHandler.h; sourceTree = "<group>"; };
 		1C24088F26B9F25100978B64 /* IntentHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntentHandler.m; sourceTree = "<group>"; };
 		1C24089126B9F25100978B64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C24089B26B9F37400978B64 /* Intents.intentdefinition */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 		1C24088D26B9F25100978B64 /* intents-extension */ = {
 			isa = PBXGroup;
 			children = (
+				1C24089B26B9F37400978B64 /* Intents.intentdefinition */,
 				1C24088E26B9F25100978B64 /* IntentHandler.h */,
 				1C24088F26B9F25100978B64 /* IntentHandler.m */,
 				1C24089126B9F25100978B64 /* Info.plist */,
@@ -236,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C24089C26B9F37400978B64 /* Intents.intentdefinition in Sources */,
 				1C24089026B9F25100978B64 /* IntentHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
