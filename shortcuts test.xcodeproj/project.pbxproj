@@ -15,7 +15,7 @@
 		1C24088C26B9F25100978B64 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C24088B26B9F25100978B64 /* Intents.framework */; platformFilter = maccatalyst; };
 		1C24089026B9F25100978B64 /* IntentHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C24088F26B9F25100978B64 /* IntentHandler.m */; };
 		1C24089426B9F25100978B64 /* intents-extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1C24088926B9F25100978B64 /* intents-extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		1C24089C26B9F37400978B64 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1C24089B26B9F37400978B64 /* Intents.intentdefinition */; };
+		1C24089C26B9F37400978B64 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1C24089B26B9F37400978B64 /* Intents.intentdefinition */; settings = {ATTRIBUTES = (codegen, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
