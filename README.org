@@ -1,0 +1,5 @@
+#+TITLE: Shortcuts Using the App Delegate
+
+This is the method shown in the [[https://developer.apple.com/videos/play/wwdc2021/10232/?time=1440][WWDC21 video on the topic]], that is, the incoming
+shortcuts requests are handled by the AppDelegate and handlers that are called
+by it.

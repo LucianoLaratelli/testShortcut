@@ -12,6 +12,8 @@
 		1C24083926B9E2C800978B64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C24083826B9E2C800978B64 /* Assets.xcassets */; };
 		1C24083C26B9E2C800978B64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C24083A26B9E2C800978B64 /* Main.storyboard */; };
 		1C24083E26B9E2C800978B64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C24083D26B9E2C800978B64 /* main.m */; };
+		1C24084526B9E3E900978B64 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1C24084426B9E3E800978B64 /* Intents.intentdefinition */; };
+		1C24084926B9E6A700978B64 /* CreateTaskIntentHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C24084826B9E6A700978B64 /* CreateTaskIntentHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,10 @@
 		1C24083826B9E2C800978B64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C24083B26B9E2C800978B64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C24083D26B9E2C800978B64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C24084426B9E3E800978B64 /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		1C24084626B9E4D900978B64 /* shortcuts-test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "shortcuts-test-Info.plist"; sourceTree = SOURCE_ROOT; };
+		1C24084726B9E6A700978B64 /* CreateTaskIntentHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateTaskIntentHandler.h; sourceTree = "<group>"; };
+		1C24084826B9E6A700978B64 /* CreateTaskIntentHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateTaskIntentHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,7 @@
 		1C24083126B9E2C700978B64 /* shortcuts test */ = {
 			isa = PBXGroup;
 			children = (
+				1C24084626B9E4D900978B64 /* shortcuts-test-Info.plist */,
 				1C24083226B9E2C700978B64 /* AppDelegate.h */,
 				1C24083326B9E2C700978B64 /* AppDelegate.m */,
 				1C24083526B9E2C700978B64 /* ViewController.h */,
@@ -62,6 +69,9 @@
 				1C24083826B9E2C800978B64 /* Assets.xcassets */,
 				1C24083A26B9E2C800978B64 /* Main.storyboard */,
 				1C24083D26B9E2C800978B64 /* main.m */,
+				1C24084426B9E3E800978B64 /* Intents.intentdefinition */,
+				1C24084726B9E6A700978B64 /* CreateTaskIntentHandler.h */,
+				1C24084826B9E6A700978B64 /* CreateTaskIntentHandler.m */,
 			);
 			path = "shortcuts test";
 			sourceTree = "<group>";
@@ -137,7 +147,9 @@
 			files = (
 				1C24083726B9E2C700978B64 /* ViewController.m in Sources */,
 				1C24083E26B9E2C800978B64 /* main.m in Sources */,
+				1C24084526B9E3E900978B64 /* Intents.intentdefinition in Sources */,
 				1C24083426B9E2C700978B64 /* AppDelegate.m in Sources */,
+				1C24084926B9E6A700978B64 /* CreateTaskIntentHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +291,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "shortcuts-test-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -306,6 +319,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "shortcuts-test-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;

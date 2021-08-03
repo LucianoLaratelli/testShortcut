@@ -6,6 +6,9 @@
 //
 
 #import "AppDelegate.h"
+@import Intents;
+#import "CreateTaskIntent.h"
+#import "CreateTaskIntentHandler.h"
 
 @interface AppDelegate ()
 
@@ -28,5 +31,12 @@
     return YES;
 }
 
+- (id)application:(NSApplication *)application handlerForIntent:(INIntent *)intent
+{
+    if ([intent isKindOfClass:[CreateTaskIntent class]]){
+        return [[CreateTaskIntentHandler alloc] init];
+    }
+    return nil;
+}
 
 @end
