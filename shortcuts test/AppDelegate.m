@@ -7,7 +7,7 @@
 
 #import "AppDelegate.h"
 @import Intents;
-#import "CreateTaskIntent.h"
+@import testUtilities;
 #import "CreateTaskIntentHandler.h"
 
 @interface AppDelegate ()

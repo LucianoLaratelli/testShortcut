@@ -6,7 +6,6 @@
 //
 
 #import "CreateTaskIntentHandler.h"
-#import "Task.h"
 @import Intents;
 
 @implementation CreateTaskIntentHandler

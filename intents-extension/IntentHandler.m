@@ -6,7 +6,7 @@
 //
 
 #import "IntentHandler.h"
-#import "CreateTaskIntent.h"
+@import testUtilities;
 
 @interface IntentHandler () <CreateTaskIntentHandling>
 

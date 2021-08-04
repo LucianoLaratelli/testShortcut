@@ -11,9 +11,7 @@
 			<key>IntentsRestrictedWhileProtectedDataUnavailable</key>
 			<array/>
 			<key>IntentsSupported</key>
-			<array>
-				<string>CreateTaskIntent</string>
-			</array>
+			<array/>
 		</dict>
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.intents-service</string>

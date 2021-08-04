@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "CreateTaskIntent.h"
+@import testUtilities;
 
 NS_ASSUME_NONNULL_BEGIN
 
