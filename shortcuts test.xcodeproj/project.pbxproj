@@ -16,6 +16,7 @@
 		1C24089026B9F25100978B64 /* IntentHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C24088F26B9F25100978B64 /* IntentHandler.m */; };
 		1C24089426B9F25100978B64 /* intents-extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1C24088926B9F25100978B64 /* intents-extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1C24089C26B9F37400978B64 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1C24089B26B9F37400978B64 /* Intents.intentdefinition */; settings = {ATTRIBUTES = (codegen, ); }; };
+		1C6AAB9E26C1BD7F00B80CD1 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1C24089B26B9F37400978B64 /* Intents.intentdefinition */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -231,6 +232,7 @@
 			files = (
 				1C24083726B9E2C700978B64 /* ViewController.m in Sources */,
 				1C24083E26B9E2C800978B64 /* main.m in Sources */,
+				1C6AAB9E26C1BD7F00B80CD1 /* Intents.intentdefinition in Sources */,
 				1C24083426B9E2C700978B64 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +439,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5VSAYR3KJH;
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "intents-extension/Info.plist";
@@ -462,6 +465,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5VSAYR3KJH;
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "intents-extension/Info.plist";
